@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;}
+
+
+
+.containter_flex{
+  display: flex;
+}
+
+  /* Inicio menu lateral */
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 336px;
+  border: solid 2px #bebebe;
+}
+
+/* Fin menu lateral */
+
+/* Inicio user principal */
+#user_p{
+  display: flex;
+  align-items: center;
+  border-bottom: solid 2px #bebebe;
+  height: 78px;
+  justify-content: space-around;
+}
+
+
+#user_p img{
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  border: solid grey 1px;
+  margin-left: 45px;
+  margin-right: -5px;
+}
+
+#user_p img:hover{
+  cursor: pointer;
+}
+
+.user_p1{
+  display: flex;
+  margin-top: 8px;
+}
+
+.data_p{
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.data_online{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  color: green;
+  opacity: 60%;
+  justify-content: end;
+  padding-left: 4px;
+}
+
+.data_online i{
+  font-size: 15px;
+}
+
+.data_p p{
+  color: #bebebe;
+  font-size: small;
+}
+
+.data_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 8px;
+  margin-right: 18px;
+}
+
+.data_icon i{
+  font-size: 24px;
+  color: #bebebe;
+}
+
+.data_icon i:hover{
+  cursor: pointer;
+}
+
+/* Inicio de button */
+
+.nchat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 2px  #bebebe;
+  height: 147px;
+}
+
+.nchat:hover{
+border-color: #A491D2;
+}
+
+.nchat button{
+  background-color:#A491D2;
+  color: white;
+  width: 202px;
+  height: 49px;
+  font-size: 16px;
+  border: none;
+}
+
+.nchat button:hover{
+  cursor: pointer;
+}
+/* Fun del button nuevo chat */
+
+
+/* Inicio de contactos conectados */
+.contacts{
+  display: flex;
+  border-bottom: solid 3px #bebebe;
+  height: 91px;
+  width: 336px;
+  transition: all 500ms;
+}
+
+.contacts:hover{
+border-color: #A491D2;
+cursor: pointer;
+}
+
+
+.img_contacts{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 166px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.img_contacts img{
+  width: 3.5rem;
+  border-radius: 100px;
+  border: solid grey 1px;
+  margin-left: 1px;
+}
+
+.data_c{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+  width: 300px;
+  margin-left: 14px;
+}
+
+.data_c p{
+  font-size: small;
+  color: #797777;
+}
+
+/* Fin de contactos conectados */
+
+
+/* Inicio del espacio chat */
+
+.chat_right{
+  display: flex;
+  flex-direction: column;
+  background-color: #e8ebe4;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat_right img{
+height: 396px;
+width: 400px;
+}
+
+.box_chat2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 8px;
+  }
+
+.box_chat2 h1{
+  font-size: 45px;
+  font-weight: 400;
+}
+
+/* fin espacio chat */
